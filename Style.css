@@ -1,0 +1,135 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+color: #253348;
+background-color: #f2f5f9;
+}
+
+.topo{
+background-color: #930ac5;
+color: white;
+padding: 24px;
+}
+
+.topo h1{
+margin-bottom: 8px;
+}
+
+.menu-horizontal ul{
+display: flex;
+gap: 8px;
+list-style: none;
+padding: 0px;
+}
+
+.menu-horizontal a{
+background-color: #d654f7;
+color: white;
+text-decoration: none;
+padding: 10px 14px;
+border-radius: 5px;
+}
+
+.menu-horizontal a:hover{
+background-color: #3976b7;
+}
+
+.pagina{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+
+.section{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: white;
+    border: 1px solid beige;
+    border-radius: 8px;
+}
+
+.section h2{
+    color: #173d69;
+}
+
+.imagem{
+    width: 300px;
+    border:  2px solid #173d69;
+}
+
+.lista-conteudo{
+font-size: 18px;
+list-style: upper-roman;
+}
+
+table{
+width: 100%;
+}
+
+th, td{
+border: 1px solid #bdc9d8;
+padding: 10px;
+}
+
+.link{
+    background-color: #3f47b4;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.link:hover{
+    background-color: #afb7eb;
+}
+
+.menu-horizontal .SubMenu{
+    display: none;
+}
+
+.menu-horizontal li:hover .SubMenu{
+    display: block;
+}
+
+.menu-horizontal a{
+    display: block;
+}
+
+.imagem {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #173d69;
+    border-radius: 8px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.imagens {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #173d69;
+    border-radius: 8px;
+}
+
+.lista-conteudo a {
+    color: #173d69;
+    text-decoration: none;
+}
+
+.lista-conteudo a:hover {
+    color: #930ac5;
+    text-decoration: underline;
+}
